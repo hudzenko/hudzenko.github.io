@@ -14,7 +14,8 @@ $(document).ready(function() {
 	$('.top_mnu ul a').click(function(){
 		$('.top_mnu').fadeOut(600);
 			$('.top_mnu li a').removeClass('fadeInUp animated')
-			$('.sandwich').toggleClass('active');	
+			$('.sandwich').toggleClass('active');
+			$('.top_text').removeClass('h_opacity');	
 	});
 	$('.toggle_mnu').click(function(){
 		if($('.top_mnu').is(':visible')){
