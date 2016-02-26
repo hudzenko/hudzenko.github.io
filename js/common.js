@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 	$('.top_mnu ul a').click(function(){
 		$('.top_mnu').fadeOut(600);
-			$('.top_mnu li a').removeClass('fadeInUp animated')
+			$('.top_mnu li a').removeClass('fadeInUp animated');
 			$('.sandwich').toggleClass('active');
 			$('.top_text').removeClass('h_opacity');	
 	});
