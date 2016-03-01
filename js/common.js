@@ -4,9 +4,7 @@ $(document).ready(function() {
 	$('.top_text h1').animated('fadeInDown','fadeOutUp');
 	$('.top_text p').animated('fadeInUp','fadeOutDown');
 	$('.sect_tittle').animated('fadeIn','fadeOut');
-	$('.animation_left').animated('zoomInLeft','zoomOutLeft');
-	$('.animation_center').animated('zoomIn','zoomOut');
-	$('.animation_right').animated('zoomInRight','zoomOutRight');
+	$('.animate_me').animated('zoomIn','zoomOut');
 
 	$('.popup').magnificPopup({type:'image'});
 
