@@ -1,4 +1,15 @@
 $(document).ready(function() {
+
+	/*Animated CSS*/
+	$('.top_text h1').animated('fadeInDown','fadeOutUp');
+	$('.top_text p').animated('fadeInUp','fadeOutDown');
+	$('.sect_tittle').animated('fadeIn','fadeOut');
+	$('.animation_left').animated('zoomInLeft','zoomOutLeft');
+	$('.animation_center').animated('zoomIn','zoomOut');
+	$('.animation_right').animated('zoomInRight','zoomOutRight');
+
+	$('.popup').magnificPopup({type:'image'});
+
 	function heightDetect(){
 		$('.main_head').css('height',$(window).height());
 	}

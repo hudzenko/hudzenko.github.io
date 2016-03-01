@@ -15,7 +15,9 @@ body
 a
 	color: $color
 
-p
+p,
+body .main_footer,
+.s_about li
 	color: $text_color
 
 .color_element
@@ -25,8 +27,16 @@ p
 .color_border
 	border-color: $color
 
-.main_color_bg
+.bg_dark
 	background-color: $main_color
+	color: #fff
+	.s_descr::after
+		background-color: #FFF
+	a
+	color: #fff
+
+.bg_light
+	background-color: $bg_light
 
 svg
 	path
@@ -47,3 +57,18 @@ svg
 	p
 		color: $bg_light
 		+kerning(5)
+
+.s_descr
+	+kerning(5)
+	&::after
+		background-color: $main_color
+
+section
+	h3
+		+kerning(3)
+		color: $text_color
+
+.s_about
+	p
+		&:nth-child(even)
+			color: $color

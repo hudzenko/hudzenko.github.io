@@ -5,7 +5,9 @@ body {
 a {
   color: #FF6347; }
 
-p {
+p,
+body .main_footer,
+.s_about li {
   color: #888; }
 
 .color_element {
@@ -17,8 +19,15 @@ p {
 .color_border {
   border-color: #FF6347; }
 
-.main_color_bg {
-  background-color: #222; }
+.bg_dark {
+  background-color: #222;
+  color: #fff;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #FFF; }
+
+.bg_light {
+  background-color: #FAFAFA; }
 
 svg {
   fill: rgba(0, 10, 2, 0.69); }
@@ -36,5 +45,17 @@ svg {
 .top_text p {
   color: #FAFAFA;
   letter-spacing: 5px; }
+
+.s_descr {
+  letter-spacing: 5px; }
+  .s_descr::after {
+    background-color: #222; }
+
+section h3 {
+  letter-spacing: 3px;
+  color: #888; }
+
+.s_about p:nth-child(even) {
+  color: #FF6347; }
 
 /*# sourceMappingURL=tomato.css.map */

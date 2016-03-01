@@ -7,7 +7,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.personal_last_block{
+		margin-top: 35px;
+	}
 }
 
 /* Small Devices, Tablets */
