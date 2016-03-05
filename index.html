@@ -5,7 +5,6 @@
 	<title>Hudzenko</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<!--<link rel="shortcut icon" href="favicon.png" />-->
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="libs/linea/styles.css" />
 	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
@@ -43,10 +42,9 @@
 				</button>
 				<nav class="top_mnu">
 					<ul>
-						<li><a href="#">About Me</a></li>
-						<li><a href="#">Resume</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Contacts</a></li>
+						<li><a href="#about">About Me</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -89,7 +87,7 @@
 						<li>Birthday: 20 April 1997</li>
 						<li>Current city: Kyiv</li>
 						<li>Languages: English, Ukrainian, Russian</li>
-						<li>Email: <a href="mailto: ukraineboyzheka@gmail.com">ukraineboyzheka@gmail.com</a></li>
+						<li>Email: <a href="mailto:ukraineboyzheka@gmail.com">ukraineboyzheka@gmail.com</a></li>
 						<li>Web-site: <a href="http://hudzenko.github.io/" target="_blank
 ">hudzenko.github.io</a></li>
 					</ul>
@@ -115,7 +113,30 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				
+				<div class="col-md-6 col-sm-6 left">
+					<h3>Work</h3>
+					<div class="resume_icon">
+						<i class="icon-basic-case"></i>
+					</div>
+					<div class="resume_item">
+						<div class="year">December 2015 - until now</div>
+						<div class="resume_description">Freelance <strong>Front-end developer</strong></div>
+						<p>I have gained a greate experience workink on different projects. I have experience in building a responsive pages, landing pages and cross-browser layouts. Some projects were with the short timeline so I had to work under pressure. I have learned a lot and I'm always in a learning state. Actually, I like this work.</p>
+						<p><strong><span class="color_element">Tools and technologies:</span> HTML5, CSS3, Bootstrap, SAAS, Adobe Photoshop, SVG, PSD to HTML, GIT, JavaScript, Jquery.</strong></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 right">
+					<h3>Studying</h3>
+					<div class="resume_icon">
+						<i class="icon-basic-globe"></i>
+					</div>
+					<div class="resume_item">
+						<div class="year">2014 - until now</div>
+						<div class="resume_description"><strong>Computer science</strong> NTUU "KPI"</div>
+						<p>I study at the "Kyiv Polytechnic Institute". It's one of the best universities of Ukraine. I can say that i like my studying and I have really good success in it. Every day I learn something new. Besides, i secured scholarship that is based on academic achievement.</p>
+						<p><strong><span class="color_element">Skills:</span> C++, C#, Java, HTML, CSS, JavaScript, computer architecture, algorithms, database.</strong></p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -129,29 +150,120 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				
+				<div class="filter_div controls">
+					<ul>
+						<li class="filter active" data-filter="all">All works</li>
+						<li class="filter" data-filter=".category-1">Sites</li>
+						<li class="filter" data-filter=".category-2">Blocks</li>
+					</ul>
+				</div>
+				<div id="portfolio_grid">
+					<div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1">
+						<img src="img/portfolio/1.jpg" alt="Universal Page">
+						<div class="port_item_cont">
+							<h3>Universal Page</h3>
+							<p>Page for different purposes</p>
+							<a href="#" class="popup_content">More</a>
+							<div class="hidden">
+									<div class="port_descr">
+									<h3>Universal Page</h3>
+									<p>Web-page for different purposes as a template: HTML5, CSS3, Bootstrap. Responsive Web Design. Made with a "pure" code and works on all recent versions of Opera, Chrome, Safari, Firefox, Yandex.</p>
+									<img src="img/portfolio/1.jpg" alt="Universal Page">	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1">
+						<img src="img/portfolio/2.jpg" alt="OfficeTime">
+						<div class="port_item_cont">
+							<h3>OfficeTime</h3>
+							<p>PSD2HTML tempale</p>
+							<a href="#" class="popup_content">More</a>
+							<div class="hidden">
+									<div class="port_descr">
+									<h3>OfficeTime</h3>
+									<p>PSD2HTML tempale: HTML5, CSS3. Responsive page. Made with a "pure" code and works on all recent versions of Opera, Chrome, Safari, Firefox, Yandex. Also, the structure of class names perfectly built for future robots with javascript.</p>
+									<img src="img/portfolio/2.jpg" alt="OfficeTime">	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio/3.jpg" alt="Fooseshoes">
+						<div class="port_item_cont">
+							<h3>Fooseshoes</h3>
+							<p>Page header</p>
+							<a href="#" class="popup_content">More</a>
+							<div class="hidden">
+									<div class="port_descr">
+									<h3>Fooseshoes</h3>
+									<p>Header for online store: CSS3, HTML, Bootstrap. Header with beautiful banner.</p>
+									<img src="img/portfolio/3.jpg" alt="Fooseshoes">	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1">
+						<img src="img/portfolio/4.jpg" alt="PhotoShowing">
+						<div class="port_item_cont">
+							<h3>PhotoShowing</h3>
+							<p>Adaptive photo-bar</p>
+							<a href="#" class="popup_content">More</a>
+							<div class="hidden">
+									<div class="port_descr">
+									<h3>PhotoShowing</h3>
+									<p>Adaptive photo-bar: HTML, CSS. Responsive page. Actually, made without bootstrap and without media queries.</p>
+									<img src="img/portfolio/4.jpg" alt="PhotoShowinge">	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio/5.jpg" alt="Offers block">
+						<div class="port_item_cont">
+							<h3>Offers block</h3>
+							<p>Complex price-list</p>
+							<a href="#" class="popup_content">More</a>
+							<div class="hidden">
+									<div class="port_descr">
+									<h3>Offers block</h3>
+									<p>Offers block for company: HTML5, CSS3. Complex price-list, made with a "pure" html, css.</p>
+									<img src="img/portfolio/5.jpg" alt="Offers block">	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio/6.jpg" alt="Page footer">
+						<div class="port_item_cont">
+							<h3>Page footer</h3>
+							<p>PSD2HTML footer</p>
+							<a href="#" class="popup_content">More</a>
+							<div class="hidden">
+									<div class="port_descr">
+									<h3>Page footer</h3>
+									<p>PSD2HTML footer: HTML, CSS. Made for educational purposes.</p>
+									<img src="img/portfolio/6.jpg" alt="Page footer">	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
-
-	<section class="s_contacts bg_light" id="contacts">
-		<div class="sect_tittle">
-			<h2>Contacts</h2>
-			<div class="s_descr_wrap">
-				<div class="s_descr">Let's get contacted with me</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				
-			</div>
-		</div>
-	</section>
-
-	<footer class="main_footer bg_dark">
+	<footer class="main_footer">
 		<div class="container">
 			<div class="col-md-12">
 				&copy; Evhenii Hudzenko
+				<div class="social_wrap">
+					<ul>
+						<li><a href="https://www.facebook.com/ukraineboyzheka" target="_blanc"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="http://vk.com/gudzenko7" target="_blanc"><i class="fa fa-vk"></i></a></li>
+						<li><a href="https://github.com/hudzenko" target="_blanc"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/evhenii-hudzenko-312618116" target="_blanc"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</footer>

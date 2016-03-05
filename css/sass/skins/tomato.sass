@@ -1,6 +1,6 @@
 @import "../bourbon/bourbon"
 
-$color: #FF6347 //Theme skin
+$color: #0AAB3A //Theme skin
 $text_color: #888
 $main_color: #222
 $bg_light: #FAFAFA
@@ -72,3 +72,31 @@ section
 	p
 		&:nth-child(even)
 			color: $color
+
+.s_resume
+	h3
+		color: $main_color
+		+kerning(1)
+
+.resume_item .year
+	background-color: $color
+	color: #fff
+
+.s_portfolio
+	li
+		+kerning(2)
+		color: $text_color
+		&.active
+			color: #fff
+			border-bottom: 1px solid $color
+
+.portfolio_item
+	border: 15px solid $main_color
+	.port_item_cont
+		a
+			border-color: $color
+			color: $color
+.main_footer
+	border-top: 1px solid $text_color
+	background-color: #eee
+	font-weight: 600
