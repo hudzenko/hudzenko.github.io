@@ -22,6 +22,7 @@ body textarea:required:valid
 section,
 .main_head
 	position: relative
+	background-image: url(../img/top-baner.jpg)
 	h3
 		text-align: center
 		text-transform: uppercase
@@ -102,15 +103,24 @@ svg
 	height: 60px
 	float: right
 	position: fixed
-	right: 20px
-	top: 20px
+	right: 22px
+	top: 22px
 	z-index: 100
 	border: none
-	border-radius: 3px
 	-webkit-transform: translate3d(0, 0, 0)
 	transform: translate3d(0, 0, 0)
 	span
 		display: block
+	&:after
+		content: ''
+		width: 60px
+		height: 60px
+		position: absolute
+		top: 3px
+		left: 3px
+		-webkit-transform: translate3d(0, 0, 0)
+		transform: translate3d(0, 0, 0)
+
 
 $w: 32px
 $h: 3px
