@@ -20,8 +20,7 @@ body textarea:required:valid {
 
 section,
 .main_head {
-  position: relative;
-  background-image: url(../img/top-baner.jpg); }
+  position: relative; }
   section h3,
   .main_head h3 {
     text-align: center;
