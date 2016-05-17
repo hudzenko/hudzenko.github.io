@@ -34,8 +34,6 @@ svg {
 
 .toggle_mnu {
   background-color: rgba(2, 63, 32, 0.89804); }
-  .toggle_mnu:after {
-    background-color: rgba(0, 37, 14, 0.78824); }
 
 .top_mnu a {
   color: #fff;

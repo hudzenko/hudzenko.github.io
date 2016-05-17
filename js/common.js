@@ -50,7 +50,7 @@ $(document).ready(function() {
 	});
 
 	$('.portfolio_item').each(function(i){
-		$(this).find('a').attr('href',"#work_"+i);
+		$(this).find('a[href="#"]').attr('href',"#work_"+i);
 		$(this).find('.port_descr').attr('id',"work_"+i);
 	});
 
