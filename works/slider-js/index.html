@@ -55,9 +55,12 @@
 			if( i === 0){
 				link.classList.add('active');
 			}
+			newLi.classList.remove('slider__pagination-item_tmpl');
+			console.log(newLi);
+
 			fragment.appendChild(newLi);
 		}
-
+		pagination.removeChild(li);
 		pagination.appendChild(fragment);
 
     new Slider('.slider', {
