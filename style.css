@@ -31,6 +31,25 @@ a {
 	color: inherit;
 	text-decoration: none;
 }
+.section{
+	width: 100%;
+    height: 100vh;
+    position: relative;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.section__body--dark{
+	background-color: rgba(0,0,0,.8);
+}
+.section-bg{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
 .section__body{
 	-ms-align-items: center;
@@ -45,9 +64,6 @@ a {
 
 .header{
 	background-image: url(img/header_bg.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 	-ms-align-items: center;
 	align-items: center;
 	justify-content: center;
@@ -69,8 +85,8 @@ a {
 /* header */
 /* header */
 
-/* header */
-/* header */
+/* technologies */
+/* technologies */
 
 .technologies__round{
 	position: absolute;
@@ -183,3 +199,27 @@ a {
 		transform: rotate(-360deg);
 	}
 }
+
+/* technologies */
+/* technologies */
+
+/* header */
+/* header */
+
+/* portfolio-item */
+/* portfolio-item */
+.teploceramic{
+	background-image: url(img/teploceramic.jpg);
+}
+.katyatal{
+	background-image: url(img/katyatal.jpg);
+}
+.portfolio-item__name{
+	font-family: 'Dancing Script', cursive;
+	font-size: 5em;
+	margin-bottom: 7px;
+	color: #fff;
+}
+
+/* portfolio-item */
+/* portfolio-items */

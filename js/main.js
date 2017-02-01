@@ -1,6 +1,6 @@
 $(function(){
 	$('#fullpage').fullpage({
-        anchors: ['header'],
+        anchors: ['header','teploceramic','katyatal'],
         scrollingSpeed: 1000,  
     });
 });
