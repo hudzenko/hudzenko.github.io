@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Yevhenii Hudzenko</title>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body id="fullpage">
+	<section class="header section">
+		<div class="section__body fw">
+			<div class="container">
+				<div class="header__title-wrapper">
+					<h1 class="header__title">Yevhenii Hudzenko</h1>
+					<h2 class="header__subtitle">Young and ambitious web-developer</h2>
+				</div>
+			</div>
+			<div class="header__technologies technologies">
+				<div class="technologies__round technologies__round--first technologies__round--animated">
+					<div class="technologies__item technologies__round--reveresed-animated">PHP</div>
+					<div class="technologies__item technologies__round--reveresed-animated">Angular</div>
+					<div class="technologies__item technologies__round--reveresed-animated">JavaScript</div>
+					<div class="technologies__item technologies__round--reveresed-animated">HTML5</div>
+					<div class="technologies__item technologies__round--reveresed-animated">CSS3</div>
+					<div class="technologies__item technologies__round--reveresed-animated">SQL</div>
+					<div class="technologies__item technologies__round--reveresed-animated">Jquery</div>
+					<div class="technologies__item technologies__round--reveresed-animated">Git</div>
+				</div>
+				<div class="technologies__round technologies__round--second technologies__round--reveresed-animated">
+					<div class="technologies__item technologies__round--animated">Ajax</div>
+					<div class="technologies__item technologies__round--animated">Opencart</div>
+					<div class="technologies__item technologies__round--animated">BEM</div>
+					<div class="technologies__item technologies__round--animated">WordPress</div>
+					<div class="technologies__item technologies__round--animated">MVC</div>
+					<div class="technologies__item technologies__round--animated">Photoshop</div>
+				</div>
+				<div class="technologies__round technologies__round--third"></div>
+			</div>
+		</div>
+	</section>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery.fullpage.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
