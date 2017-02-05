@@ -1,0 +1,670 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	max-width: 1023px;
+	margin: 0 auto;
+	padding-top: 43px;
+	overflow: hidden;
+}
+.company-name{
+	margin-bottom: 36px;
+}
+
+.top-nav{
+	list-style: none;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	float: right;
+	font-weight: 600;
+
+}
+
+.top-nav li{
+	display: inline-block;
+	float: left;
+}
+
+.top-nav a{
+	color: #989898;
+	text-decoration: none;
+	height: 75px;
+	padding: 18px 14px 33px 16px;
+	display: block;
+	box-sizing: border-box;
+}
+.top-nav a:hover{
+	color: #3070a8;
+	border-bottom: 4px solid #3070a8;
+}
+
+
+
+
+
+
+
+/*----------here is banner------------------------------*/
+
+.baner{
+	width: 100%;
+	background-image: url(img/mBaner.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+	padding-top:145px;
+	padding-bottom: 106px;
+	box-sizing: border-box;
+	height: 584px;
+}
+.baner-content{
+	max-width: 1023px;
+	margin: 0 auto;
+}
+.baner h2{
+	font-family: 'futura_bookregular';
+	font-weight: normal;
+	text-align: center;
+	font-size: 36px;
+	color: #fff;
+	margin-bottom: 7px;
+}
+
+.baner h1{
+	font-family: 'futurabold';
+	font-size: 48px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 21px;
+}
+
+.baner p{
+	width: 584px;
+	margin: 0 auto;
+	font-family: Calibri;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 50px;
+}
+.baner button{
+	display: block;
+	margin: 0 auto;
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 16px;
+	width: 245px;
+	height: 48px;
+	border: 1px solid #99a9b4;
+	cursor: pointer;
+	background: rgba(0,0,0,0);
+}
+.baner button:active{
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+/*----------here is services------------------------------*/
+.services{
+	background: #fff;
+}
+.services-content{
+	margin: 0 auto;
+	max-width: 1023px;
+	padding-top: 60px;
+	padding-bottom: 57px;
+}
+.services-header{
+	text-align: center;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #41525c;
+	margin-bottom: 70px;
+}
+
+.posibilities{
+
+}
+
+.one-posibility{
+	display: inline-block;
+	width: 304px;
+	margin-right: 50px;
+	vertical-align: top;
+}
+
+.one-posibility:last-child{
+	margin: 0;
+}
+
+.one-posibility img{
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	margin-bottom: 25px;
+}
+
+.posib-name{
+	text-transform: uppercase;
+	font-family: 'futura_bookregular';
+	font-size: 29px;
+	font-weight: normal;
+	text-align: center;
+	color: #3070a8;
+	margin-bottom: 19px;
+}
+
+.posib-paragraph{
+	text-align: center;
+	font-size: 14px;
+	color: #989898;
+	font-family: 'open_sansregular';
+}
+
+/* ---------Here is middle-block---------  */
+
+.middle-block{
+	width: 100%;
+	height: 577px;
+	background-image: url(img/middle-back.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+.middle-content{
+	margin: 0 auto;
+	max-width: 1023px;
+	padding-top: 85px;
+}
+.content-right{
+	max-width: 685px;
+}
+
+.middle-header{
+	font-family: 'futura_bookregular';
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #ee8129;
+	line-height: 1.5;
+	margin-bottom: 14px;
+}
+.middle-afterhead{
+	font-size: 18px;
+	color: #fff;
+	font-family: 'open_sansregular';
+	font-style: italic;
+	font-weight: normal;
+	margin-bottom: 38px;
+}
+
+.content-right ul{
+	display: block;
+	width: 626px;
+	margin-left: 30px;
+	font-family: 'open_sansregular';
+	font-size: 14px;
+}
+
+.content-right li{
+	color: #9d9d9d;
+	line-height: 2;
+	margin-bottom: 12px;
+}
+
+.content-right a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.content-right li:hover{
+	color: #3070a8;
+}
+
+/* ---------Here is pricing---------  */
+
+
+
+.pricing{
+	max-width: 1023px;
+	margin: 0 auto;
+	font-family: Trebuchet MS;
+	background: #fff;
+}
+
+.price-head{
+	margin-top: 57px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 30px;
+	color: #41525c;
+	margin-bottom: 57px;
+
+}
+
+.offers{
+	padding-top: 17px;
+	width: 874px;
+	margin: 0 auto;
+	margin-bottom: 76px;
+}
+
+.offer-block{
+	font-family: Trebuchet MS;
+	background: #fff;
+	width: 289px;
+	border-radius: 5px;
+	border: 1px solid #e8eaec;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#standart{
+	float:left;
+	border-right: none;	
+}
+#best-value{
+	float: left;
+	border-right: none;
+	position: relative;
+	z-index: 200;
+	margin-top: -17px;
+	border: 4px solid #ee8129;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,.25);
+	   -moz-box-shadow: 0 0 15px rgba(0,0,0,.25);
+	        box-shadow: 0 0 15px rgba(0,0,0,.25);
+}
+#ultimate{
+	float: left;
+}
+
+.offer-head{
+	position: relative;
+	margin-top:0;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 24px;
+	text-align: center; 
+	line-height: 27px;
+	padding: 22px 0 14px;
+	margin-bottom: 19px;
+}
+#standart .offer-head{
+	background: #37c2d3;
+}
+#best-value .offer-head{
+	background: #ee8129;
+	padding: 28px 0 21px;
+	
+}
+#ultimate .offer-head{
+	background: #1cb79a;
+}
+.text{
+	margin-top:0;
+	color: #3f4042;
+	text-align: center;
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 14.5px;
+}
+
+.price{
+	margin-top:0;
+	font-size: 72px;
+	line-height: 72px;
+	color: #35495a;
+	font-weight: bold;
+	margin-left: 81px;
+	position: relative;
+	margin-bottom: 21px;
+}
+
+.price:before{
+	position: absolute;
+	content: "$";
+	font-size: 25px;
+	left: -14px;
+	top: -20px;
+}
+.price:after{
+	content:"Monthly";
+	font-weight: normal;
+	position: absolute;
+	font-size: 18px;
+	bottom: -20px;
+}
+
+.offer-block ul{
+	width: 259px;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.offer-block li{
+	width: 100%;
+	height: 33px;
+	padding-left: 63px;
+	font-size: 15px;
+	line-height: 33px;
+	color: #888c94;
+	background: #edf5fd;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 2px;
+    position: relative;
+}
+.offer-block li:nth-child(even){
+	background: #f5f5f6;
+}
+
+.offer-block li:before{
+	content: url(img/checkpoint.png);
+	position: absolute;
+	left: 33px;
+}
+.offer-block li:last-child{
+	margin-bottom: 18px;
+}
+
+.offer-block button{
+	display: block;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	margin: 0 auto 20px;
+	width: 252px;
+	height: 41px;
+	border: none;
+	border-bottom: 2px solid;
+	border-radius: 5px;
+	cursor: pointer;
+	text-transform: uppercase;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#standart button{
+	border-color: #008B8B;
+	background: #37c2d3;
+}
+
+#best-value button{
+	border-color: #b3560b;
+	background: #ee8129;
+	margin-bottom: 30px;
+}
+
+#ultimate button{
+	border-color: #008080;
+	background: #1cb79a;
+}
+
+.offer-block button:active{
+	border: none;
+}
+
+.offers::after{
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/*---------here is reviews-------------------------------*/
+
+.reviews{
+	width: 100%;
+	background-image: url(img/coment-back.png);
+	padding-top: 53px;
+	font-family: Trebuchet MS;
+}
+
+.reviews-header{
+	margin: 0;
+	text-align: center;
+	font-size: 40px;
+	font-weight: normal;
+	color: #3170a8;
+	line-height: 44px;
+	margin-bottom: 40px;
+}
+.first-word{
+	color: #ee8129;
+}
+.content{
+	max-width: 1023px;
+	margin: 0 auto;
+	padding-bottom: 78px;
+}
+.comment{
+	vertical-align: top;
+	margin: 0 auto;
+	display: inline-block;
+	width: 490px;
+	overflow: hidden;
+	margin-right: 38px;
+}
+.comment:last-child{
+	margin-right: 0;
+}
+
+.comment img{
+	float: left;
+}
+.one-review{
+	position: relative;
+	float: right;
+	width: 364px;
+	padding: 14px;
+	background: #f7f7f7;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.name{
+	margin: 0;
+	font-size: 13px;
+	display: inline-block;
+	font-style: italic;
+	color: #3070a8;
+	margin-bottom: 8px;
+}
+.right{
+	float: right;
+	margin-right: 4px;
+}
+
+.reviews hr{
+	margin: 0;
+	border: 0;
+	border-bottom: 1px dashed #666;
+	margin-bottom: 10px;
+}
+
+.just-comment{
+	margin:0;
+	font-size: 13px;
+	color: #666;
+	line-height: 17px;
+}
+
+.one-review::before{
+	content: url(img/bord.png);
+	position: absolute;
+	left:-16px;
+	top:37px;
+}
+
+@media only screen and (max-width: 1014px){
+	.comment{
+		display: block;
+		margin: 0 auto 30px !important;
+	}
+}
+
+
+
+
+/*----------here is footer------------------------------*/
+
+footer{
+	width: 100%;
+	background: #fff;
+	position: relative;
+}
+
+.map{
+	position: absolute;
+	top:0;
+	right:0;
+	width: 50%;
+	height: 345px;
+}
+
+.footer-content{
+	max-width: 1023px;
+	margin: 0 auto;
+	padding-top: 41px;
+}
+
+.info{
+	overflow: hidden;
+}
+.icon{
+	float: left;
+	margin-right: 37px;
+}
+
+.mob.icon{
+	margin-left: 3px;
+	margin-right: 39px;
+}
+
+.contact-info{
+	float: left;
+	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #666666;
+	line-height: 30px;
+}
+.address.info{
+	margin-bottom: 15px;
+}
+.number.info{
+	margin-bottom: 14px;
+}
+.mail.info{
+	margin-bottom: 27px;
+}
+
+.mail .contact-info{
+	margin-top: -7px;
+}
+
+.soc-network{
+	list-style-type: none;
+	white-space: normal;
+	margin-bottom: 25px;
+}
+.soc-network li{
+	display: inline-block;
+	white-space: normal;
+	margin-right: 20px;
+}
+
+.line{
+	height: 103px;
+	background: #3070a8;
+	text-align: center;
+}
+
+.footer-text{
+	display: inline-block;
+	margin-top: 25px;
+	text-align: center;
+	font-family: 'open_sansregular';
+	font-size: 14px;
+	color: white;
+}
+
+b{
+	font-family: 'open_sansbold';
+}
+.black{
+	color: #000;
+	font-family: 'open_sansbold';
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans-regular-webfont.eot');
+    src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans-regular-webfont.woff') format('woff'),
+         url('fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/opensans-bold-webfont.eot');
+    src: url('fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/opensans-bold-webfont.woff') format('woff'),
+         url('fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'futura_bookregular';
+    src: url('fonts/ufonts.com_futurabt-book-opentype-webfont.eot');
+    src: url('fonts/ufonts.com_futurabt-book-opentype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ufonts.com_futurabt-book-opentype-webfont.woff2') format('woff2'),
+         url('fonts/ufonts.com_futurabt-book-opentype-webfont.woff') format('woff'),
+         url('fonts/ufonts.com_futurabt-book-opentype-webfont.ttf') format('truetype'),
+         url('fonts/ufonts.com_futurabt-book-opentype-webfont.svg#futura_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futurabold';
+    src: url('fonts/ufonts.com_futurabt-bold-opentype-webfont.eot');
+    src: url('fonts/ufonts.com_futurabt-bold-opentype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ufonts.com_futurabt-bold-opentype-webfont.woff2') format('woff2'),
+         url('fonts/ufonts.com_futurabt-bold-opentype-webfont.woff') format('woff'),
+         url('fonts/ufonts.com_futurabt-bold-opentype-webfont.ttf') format('truetype'),
+         url('fonts/ufonts.com_futurabt-bold-opentype-webfont.svg#futurabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
