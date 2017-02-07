@@ -344,6 +344,14 @@ a {
 .portfolio-item__text{
 	display: none;
 }
+.portfolio-item__link{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.portfolio-item__technologies{
+	display: none;
+}
+
 
 /* portfolio */
 /* portfolio */
@@ -386,6 +394,12 @@ a {
 .popup__text{
 	font-size: 14px;
 	margin-bottom: 10px;
+}
+.popup__technologies{
+	font-size: 13px;
+	color: #333;
+	margin-bottom: 10px;
+	font-weight: bold;
 }
 .popup__img{
 	width: 100%;

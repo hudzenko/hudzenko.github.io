@@ -28,8 +28,8 @@ $(function(){
 			$('.popup').addClass('popup_visible');
 		    $('.popup__img').attr('src', $(this).data('img'));
 		    $('.popup__title').text($(this).find('.portfolio-item__name').text());
-		    $('.popup__text').text($(this).find('.portfolio-item__text').text());
-
+		    $('.popup__text').html($(this).find('.portfolio-item__text').html());
+		    $('.popup__technologies').text($(this).find('.portfolio-item__technologies').text());
 		});
 		$('.popup__close-wrap').on('click', function(){
     		$('.popup').removeClass('popup_visible');
