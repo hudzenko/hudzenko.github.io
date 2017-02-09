@@ -96,19 +96,19 @@ a {
 .technologies__round--first{
 	width: 880px;
 	height: 880px;
-	top: 0;
+	top: calc(50% - 319px);
 	left: calc(50% - 440px);
 }
 .technologies__round--second{
 	width: 1020px;
 	height: 1020px;
-	top: -68px;
+	top: calc(50% - 387px);
 	left: calc(50% - 510px);
 }
 .technologies__round--third{
 	width: 1230px;
 	height: 1230px;
-	top: -170px;
+	top: calc(50% - 489px);
 	left: calc(50% - 615px);
 }
 .technologies__item{
